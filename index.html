@@ -8,7 +8,7 @@
     <link href="styles.css" rel="stylesheet" type="text/css">
   </head>
     
-  <body>
+  <body ng-app="myApp">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,21 +38,10 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-    <div class="jumbotron">
-      <div class="container">
-        <!-- <img src="hero.jpg" alt="Jane Danced" /> -->
-        <!-- <h1>Jane Danced</h1> -->
-        <h3>Friendship. Support. Empowerment. Sustainability</h3>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-6">
-        I invite you to walk with me, to share what you can in creating a world where women can live without fear. Where <strong>women</strong> have enough for themselves and their children, where women care about each other’s wellbeing and not who wears the smallest dress size.
-      </div>
-      <div class="col-sm-6">
-        We must as women, if we plan to ever receive true equality and live without fear or as a minority, create sisterhood, defend each other and leave the competition and petty mind set behind, step forward hand in hand and show the world we are <strong>united</strong>.
-      </div>
+    <div class="container">
+      
+      <div ui-view></div>
+      
     </div>
     
     
