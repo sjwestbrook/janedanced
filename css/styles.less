@@ -1,6 +1,7 @@
 // VARIABLES
 
 // neutrals
+@dk-grey:  #281A17;
 @hemp: #9B8D8A;
 @almond-frost: #A4938B;
 @silver-rust: #CEC0B7;
@@ -30,6 +31,18 @@
 @headings: 'Alegreya Sans', sans-serif;
 
 
+
+// MIXINS
+
+
+.hero-header {
+  background-color: rgba(251, 143, 105, 0.4);
+  padding: 2% 10%;
+  color: @dk-grey;
+  font-size: 2.2em;
+  letter-spacing: .1em;
+}
+
 // GLOBAL STYLES
 
 html {
@@ -41,42 +54,88 @@ body {
   background-color: @wafer;
   margin: 0;
   padding: 0;
+  
+  .ng-scope {
+    width: 100%;
+  }
 }
 
 a {
   text-decoration: none;
 }
 
-.navbar-brand {
-  img {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
+.navbar {
+  background-color: @dk-grey;
+  color: @alabaster;
+  margin: 0;
+  border-radius: 0;
+}
+
+.navbar-nav {
+  background-color: @dk-grey;
+  li {
+    a {
+      background-color: @dk-grey;;
+      color: @alabaster;
+      margin: 0;
+      border-radius: 0;
+
+      &:hover, &:active {
+        background-color: @dk-grey;
+        color: @salmon;
+        text-decoration: none;
+      }
+    }
   }
 }
 
-.navbar-default {
-  background-color: @dk-brown;
+.navbar-brand {
+  text-shadow: none;
   color: @alabaster;
   
-  a:hover, a:active {
-    color: @salmon;
-    text-decoration: none;
+  img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
   }
 }
 
-.hero {
-  background-image: url(hero.jpg);
+.jumbotron {
+  background-image: url(/images/hero.jpg);
   background-size: cover;
-  padding: 5%;
+  padding: 20%;
+  margin: 0;
   border-bottom: 5% solid @alabaster;
+  position: relative;
 }
 
-.hero-header {
-  background-color: rgba(251, 143, 105, 0.6);
-  padding: 3% 5%;
+.hero-header1 {
+  .hero-header;
+  position: absolute;
+  top: 20%;
+  left: 60%;
 }
 
+.hero-header2 {
+  .hero-header;
+  position: absolute;
+  top: 35%;
+  left: 60%;
+}
+
+.hero-header3 {
+  .hero-header;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+}
+
+.hero-header4 {
+  .hero-header;
+  position: absolute;
+  top: 65%;
+  left: 60%;
+}
 .card {
   background-color: @alabaster;
   -webkit-box-shadow: 3px 3px 5px 0px rgba(155,141,138,1);

@@ -6,36 +6,36 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider 
     .state('home', {
       url: '/home',
-      templateUrl: 'home.html'
+      templateUrl: 'js/views/home.html'
     })
     
     .state('about', {
       url: '/about',
-      templateUrl: 'about.html'
+      templateUrl: 'js/views/about.html'
     })
     
     .state('contact', {
       url: '/contact',
-      templateUrl: 'contact.html'
+      templateUrl: 'js/views/contact.html'
     })
     
     .state('events', {
       url: '/events',
-      templateUrl: 'events.html'
+      templateUrl: 'js/views/events.html'
     })
     
     .state('shelters', {
       url: '/shelters',
-      templateUrl: 'shelters.html'
+      templateUrl: 'js/views/shelters.html'
     })
     
     .state('shop', {
       url: '/shop',
-      templateUrl: 'shop.html'
+      templateUrl: 'js/views/shop.html'
     })
     
     .state('vision', {
       url: '/vision',
-      templateUrl: 'vision.html'
+      templateUrl: 'js/views/vision.html'
     })
 });

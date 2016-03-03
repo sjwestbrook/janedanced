@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic,500,500italic,700,700italic|Alegreya+Sans:400,700,800' rel='stylesheet' type='text/css'>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
-    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
     
   <body ng-app="myApp">
-    <nav class="navbar navbar-default">
+    <nav class="navbar">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -22,7 +22,8 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="home.html">
-            <img src="stock-photo-pink-gerbera-flower-isolated-on-white-with-clipping-path-374082472" alt="Jane Danced Home"/>
+            <!-- <img src="images/stock-photo-pink-gerbera-flower-isolated-on-white-with-clipping-path-374082472.jpg" alt="Jane Danced Home"/> -->
+            Jane Danced
           </a>
         </div>
     
@@ -40,15 +41,15 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-    <div class="container">
       
-      <div ui-view></div>
-      
-    </div>
+    <div ui-view></div>
     
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
 
