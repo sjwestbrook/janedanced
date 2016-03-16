@@ -2,7 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
     <title>Jane Danced</title>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -10,6 +13,7 @@
     <link href='https://fonts.googleapis.com/css?family=Calligraffitti|Homemade+Apple|Sacramento' rel='stylesheet' type='text/css'>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    
   </head>
     
   <body ng-app="myApp">
@@ -23,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="home.html">
+          <a class="navbar-brand" ui-sref="home">
             <!-- <img src="images/stock-photo-pink-gerbera-flower-isolated-on-white-with-clipping-path-374082472.jpg" alt="Jane Danced Home"/> -->
             Jane Danced
           </a>
@@ -32,12 +36,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="menu">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Vision &amp; Mission</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Utah Women's Shelters</a></li>
+            <li><a ui-sref="vision">Vision &amp; Mission</a></li>
+            <li><a ui-sref="about">About</a></li>
+<!--            <li><a ui-sref="events">Events</a></li>-->
+<!--            <li><a ui-sref="shop">Shop</a></li>-->
+            <li><a ui-sref="contact">Contact</a></li>
+            <li><a ui-sref="shelters">Utah Women's Shelters</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -71,6 +75,13 @@
               </a>
             </li>
           </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p><strong>National Domestic Violence Hotline: 800-799-SAFE</strong><br />
+            <em>This organization is based in Utah, USA; however, we are willing to direct you to help in your area.</em>
+          </p>
         </div>
       </div>
     </footer>
