@@ -66,6 +66,24 @@ a {
   text-decoration: none;
 }
 
+ul {
+  li {
+    list-style: none;
+  }
+}
+
+.btn-dark {
+  background-color: @seashell;
+  border: 2px solid @dk-grey;
+  color: @dk-grey;
+  font-weight: 600;
+  
+  &:hover, &:active {
+    background-color: @dk-grey;
+    color: @seashell;
+  }
+}
+
 .navbar {
   background-color: @dk-grey;
   color: @alabaster;
@@ -194,7 +212,10 @@ a {
 
 // CONTACT
 
-
+.bg-contact {
+  background-image: url(../images/nature-768458_1920.jpg);
+  background-size: cover;
+}
 
 
 // EVENTS
@@ -215,7 +236,8 @@ a {
 // VISION
 
 .bg-vision {
-  
+  background-image: url(../images/daisies-846079_1920.jpg);
+  background-size: cover;
 }
 
 
