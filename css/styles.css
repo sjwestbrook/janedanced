@@ -23,7 +23,7 @@ body {
 body .ng-scope {
   width: 100%;
 }
-.container-fluid {
+.container-fluid .no-padding {
   padding-right: 0;
   padding-left: 0;
 }
