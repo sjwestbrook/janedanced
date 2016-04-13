@@ -163,6 +163,17 @@ ul li {
 .bg-vision {
   background-image: url(../images/gerbera-daisy-1006484_1920.jpg);
   background-size: cover;
+  height: 50vh;
+}
+.bg-vision ul {
+  background-color: rgba(0, 57, 68, 0.3);
+  padding: 2% 8%;
+  color: #E1C9C9;
+  font-size: 2.2em;
+  letter-spacing: .1em;
+}
+.bg-vision ul li {
+  padding: 2% 5%;
 }
 /*
 .header-vision {
