@@ -145,7 +145,7 @@ ul li {
   text-align: center;
 }
 .bg-about {
-  background-image: url(../images/gerbera-daisy-1006484_1920.jpg);
+  background-image: url(../images/daisies-846079_1920.jpg);
   background-size: cover;
 }
 .bg-contact {
@@ -157,13 +157,16 @@ ul li {
   background-size: cover;
 }
 .bg-vision {
-  background-color: #281A17;
+  background-image: url(../images/gerbera-daisy-1006484_1920.jpg);
+  background-size: cover;
 }
+/*
 .header-vision {
   background-image: url(../images/daisies-846079_1920.jpg);
   background-size: cover;
-  height: 50vh;
+  height: 50vh;  
 }
+*/
 .vision-header1 {
   background-color: rgba(0, 57, 68, 0.3);
   padding: 2% 8%;
