@@ -137,7 +137,7 @@ ul li {
 .card {
   background-color: #FEECE0;
   padding: 5%;
-  margin: 7% 15% 5% 15%;
+  margin: 7% 15% 0% 15%;
   border-radius: 2px;
   font-size: 1.2em;
   line-height: 1.6;
@@ -164,9 +164,6 @@ ul li {
   background-image: url(../images/gerbera-daisy-1006484_1920.jpg);
   background-size: cover;
   height: 50vh;
-}
-.bg-vision ul {
-  list-style-type: none;
 }
 .bg-vision ul .header-ul {
   background-color: rgba(0, 57, 68, 0.3);
