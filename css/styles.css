@@ -166,13 +166,16 @@ ul li {
   height: 50vh;
 }
 .bg-vision ul {
+  list-style-type: none;
+}
+.bg-vision ul .header-ul {
   background-color: rgba(0, 57, 68, 0.3);
   padding: 2% 8%;
   color: #E1C9C9;
   font-size: 2.2em;
   letter-spacing: .1em;
 }
-.bg-vision ul li {
+.bg-vision ul .header-ul li {
   padding: 2% 5%;
 }
 /*
