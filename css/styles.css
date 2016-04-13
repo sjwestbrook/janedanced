@@ -23,6 +23,10 @@ body {
 body .ng-scope {
   width: 100%;
 }
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
 a {
   text-decoration: none;
 }
